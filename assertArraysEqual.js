@@ -17,3 +17,4 @@ const assertArraysEqual = function(firstArray, secondArray) {
   }
 };
 
+assertArraysEqual([1,2,3],[1,3,3]);
