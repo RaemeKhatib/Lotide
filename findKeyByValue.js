@@ -35,12 +35,4 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 
 
-//this is if we search by the key (so drama, and get the Wire)
-// const findValueByKey = function(object, key){
-//   const values = Object.values(object);
-//  for (const value of values) {
-//   if (object[key] === value){
-//     return value;
-//   }
-//  }
-// };
+
