@@ -8,7 +8,6 @@ const eqArrays = function (firstArray, secondArray) {
 };
 
 
-
 const assertArraysEqual = function(firstArray, secondArray) { 
     if (eqArrays(firstArray, secondArray)) {
       console.log( `✅✅✅ Assertion Passed: ${firstArray} === ${secondArray}`);
@@ -16,7 +15,5 @@ const assertArraysEqual = function(firstArray, secondArray) {
       console.log( `🛑🛑🛑 Assertion Failed: ${firstArray} !== ${secondArray}`);
   }
 };
-
-assertArraysEqual([1,"3",3],[1,"3",3]);
 
 module.exports = assertArraysEqual; 

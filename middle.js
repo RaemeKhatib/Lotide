@@ -30,5 +30,7 @@ const middle = function(array) {
 }
 
 
-console.log(middle(["tom", "dick", "harry", "james", "susan"]));
-console.log(middle([1, 2, 3, 4]));
+
+module.exports = {
+  middle, assertArraysEqual
+}
