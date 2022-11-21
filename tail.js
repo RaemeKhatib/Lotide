@@ -13,3 +13,5 @@ const tail = function(item) {
 
 
 module.exports = tail;
+
+console.log(tail(["Hello", "Lighthouse", "Labs"]))
