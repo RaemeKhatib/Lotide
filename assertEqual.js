@@ -6,12 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-console.log(assertEqual(1,1));
-console.log(assertEqual("1", 1));
 
 
 // '❤️' from https://emojicombos.com/ then add them with quotes around them
 
 
-ProcessingInstruction.argv
+module.exports = assertEqual;
