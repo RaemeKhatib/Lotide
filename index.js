@@ -15,8 +15,8 @@ const without = require('./without');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
+  head: head,
+  tail: tail,
   middle: middle,
   countLetters: countLetters,
   countOnly: countOnly,
@@ -27,7 +27,8 @@ module.exports = {
   letterPositions: letterPositions,
   map: map,
   takeUntil: takeUntil,
-  without: without,
+  without: without
 
 };
 
+console.log(without(["ground", "control", "to", "major", "tom"], "ground"))

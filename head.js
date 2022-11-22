@@ -8,6 +8,3 @@ const head = function(item) {
 
 module.exports = head;
 
-
-console.log(head("[]","[2,3]"));
-console.log(head([[],[2,3]]))

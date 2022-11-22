@@ -9,7 +9,7 @@ const map = function(array, callback) {
 };
 
 const results1 = map(words, word => word [0]);
-console.log(results1);
+// console.log(results1);
 
 
 // const eqArrays = function(firstArray, secondArray) {

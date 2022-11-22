@@ -1,9 +1,9 @@
-const {middle} = require('../middle');
+const middle = require('../middle');
 const assert = require('chai').assert;
 
 
 describe("#middle", () => {
-  it(("returns Harry for Tom, Dick, Harry, James Susan"), () => {
+  it(("returns Harry for [Tom, Dick, Harry, James, Susan]"), () => {
     assert.deepEqual(middle(["tom", "dick", "harry", "james", "susan"]), ["harry"]);
   });
 
