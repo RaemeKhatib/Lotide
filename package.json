@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@raemekhatib/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a small composition of functions that can be used as methods to find various array and object information",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/RaemeKhatib/Lotide.git"
   },
-  "author": "",
+  "author": "raemekhatib, jordanjohnson, kristakourtessis", 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RaemeKhatib/Lotide/issues"
