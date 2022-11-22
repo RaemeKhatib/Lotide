@@ -12,27 +12,29 @@ const results1 = map(words, word => word [0]);
 console.log(results1);
 
 
-const eqArrays = function(firstArray, secondArray) {
-  for (let i = 0; i < firstArray.length; i++) {
-    if (firstArray[i] !== secondArray[i]) {
-      return false;
-    }
-  }
-  return true;
-};
+// const eqArrays = function(firstArray, secondArray) {
+//   for (let i = 0; i < firstArray.length; i++) {
+//     if (firstArray[i] !== secondArray[i]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
 
 
 
-const assertArraysEqual = function(firstArray, secondArray) {
-  if (eqArrays(firstArray, secondArray)) {
-    console.log(`✅✅✅ Assertion Passed: ${firstArray} === ${secondArray}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${firstArray} !== ${secondArray}`);
-  }
-};
+// const assertArraysEqual = function(firstArray, secondArray) {
+//   if (eqArrays(firstArray, secondArray)) {
+//     console.log(`✅✅✅ Assertion Passed: ${firstArray} === ${secondArray}`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${firstArray} !== ${secondArray}`);
+//   }
+// };
 // console.log(map(["ground", "second"], item => {
 //   if (item === "ground")
 //   return item;
 // }))
 
-assertArraysEqual(map(["ground", "second", "third"], item => item), ["ground", "second"]);
+// assertArraysEqual(map(["ground", "second", "third"], item => item), ["ground", "second"]);
+
+module.exports = map;
